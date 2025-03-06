@@ -102,4 +102,17 @@ div.container {
 
 /* 広い画面向けの CSS */
 @media (min-width: 600px) {
+summary {
+    padding-left: 30px;
+    padding-right: 45px;
+}
+dl {
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+dt, dd {
+    margin-left: unset;
+    margin-bottom: 40px;
+}
 }

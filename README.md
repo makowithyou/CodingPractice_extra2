@@ -7,3 +7,6 @@ https://code-jump.com/extra2-menu/
 - [Figma デザインカンプ](https://www.figma.com/design/NArEcAEHqKSpNyMhwPpVpR/21_CodingPractice_extra2?m=auto&t=dPvvaZStlZlVrlnN-6)
 - [デモサイト](https://code-jump.com/demo/html/extra2/)
 - [完成ページ](https://makowithyou.github.io/CodingPractice_extra2/)
+
+# 
+開閉時のアニメーション

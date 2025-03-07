@@ -36,13 +36,9 @@ h2 {
 details {
     border-top: 1px solid var(--font-color);
     transition: 0.5s;
-    height: 109px;
 }
 details:last-of-type {
     border-bottom: 1px solid var(--font-color);
-}
-details[open] {
-    height: 703px;
 }
 summary {
     font-weight: 600;
@@ -58,7 +54,7 @@ summary {
     padding-right: 17px;
 }
 summary:hover,
-details[open] summary  {
+summary.open {
     background-color: var(--sub-bg-color);
 }
 span {
@@ -76,17 +72,13 @@ span::after {
     transform: rotate(-90deg);
     transition: 0.5s;
 }
-details[open] span::after {
+summary.open span::after {
     transform: rotate(0deg);
 }
 dl {
     margin-top: 35px;
     margin-bottom: 75px;
-    transition: 1s;
-    opacity: 0;
-}
-details[open] dl {
-    opacity: 1;
+    display: none;
 }
 dt {
     font-weight: 600;
@@ -115,7 +107,7 @@ summary {
     padding-left: 30px;
     padding-right: 45px;
 }
-dl {
+dl div {
     padding-left: 30px;
     display: grid;
     grid-template-columns: 1fr 3fr;

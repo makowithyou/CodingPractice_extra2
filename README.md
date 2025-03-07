@@ -9,4 +9,4 @@ https://code-jump.com/extra2-menu/
 - [完成ページ](https://makowithyou.github.io/CodingPractice_extra2/)
 
 # 
-開閉時のアニメーション
+jQueryが動いていない。jQueryを使う場合、detailsでいいのか検討

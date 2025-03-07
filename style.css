@@ -8,6 +8,7 @@
     box-sizing: border-box;
     color: var(--font-color);
     background-color: var(--main-bg-color);
+    scrollbar-gutter: stable;
 }
 body {
     font-family: 

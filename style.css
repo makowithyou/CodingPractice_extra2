@@ -34,12 +34,14 @@ h2 {
 }
 details {
     border-top: 1px solid var(--font-color);
+    transition: 0.5s;
+    height: 109px;
 }
 details:last-of-type {
     border-bottom: 1px solid var(--font-color);
 }
-details[open]{
-    transition: 0.5s;
+details[open] {
+    height: 703px;
 }
 summary {
     font-weight: 600;
@@ -79,6 +81,11 @@ details[open] span::after {
 dl {
     margin-top: 35px;
     margin-bottom: 75px;
+    transition: 0.5s;
+    opacity: 0;
+}
+details[open] dl {
+    opacity: 1;
 }
 dt {
     font-weight: 600;

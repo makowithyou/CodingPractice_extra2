@@ -82,7 +82,7 @@ details[open] span::after {
 dl {
     margin-top: 35px;
     margin-bottom: 75px;
-    transition: 0.5s;
+    transition: 1s;
     opacity: 0;
 }
 details[open] dl {

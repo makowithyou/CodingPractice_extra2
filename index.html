@@ -2,7 +2,7 @@
     <html lang="ja">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="./main.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://lh3.googleusercontent.com/d/">
@@ -127,13 +127,6 @@
             </details>
         </div>
     </main>
-    <script>
-        $("summary").click(function(e){
-            e.preventDefault();
-            $(this).next().slideToggle();
-            $(this).toggleClass("open");
-        })
-    </script>
 </body>
 
 </html>

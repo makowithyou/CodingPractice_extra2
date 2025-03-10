@@ -127,6 +127,13 @@
             </details>
         </div>
     </main>
+    <script>
+        $("summary").click(function(e){
+            e.preventDefault();
+            $(this).next().slideToggle();
+            $(this).toggleClass("open");
+        })
+    </script>
 </body>
 
 </html>
